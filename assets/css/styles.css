@@ -8,12 +8,14 @@ html {
   justify-items: center;
 }
 
-.avatar img {
+.avatar {
   display: flex;
-  border-radius: 100px;
   justify-content: center;
   justify-items: center;
+}
 
+.avatar img {
+  border-radius: 100px;
 }
 
 .name {
@@ -28,4 +30,5 @@ html {
   display: flex;
   justify-content: center;
   justify-items: center;
+  margin-top: -20px;
 }
