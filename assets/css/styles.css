@@ -39,12 +39,21 @@ body {
 }
 
 .brand {
-  color: rgba(0, 0, 0, 0.80);
-  cursor: pointer;
+  background-color: #01024e;
+  padding: 0 20px 0 20px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  box-shadow: 0px 0px 10px -2px rgba(0, 0, 0, 0.61);
 }
 
-.brand:hover {
+.brand a {
+  cursor: pointer;
+  text-decoration: none;
   color: #fff;
+}
+
+.brand a:hover {
+  opacity: .8;
   transition: .3s all;
 }
 
@@ -60,20 +69,19 @@ body {
 
 .nav-list ul li {
   float: left;
-  margin: 5px;
-  font-size: 1.3rem
+  margin-left: 20px;
+  font-size: 1.4rem
 }
 
 .nav-list ul li a {
   text-decoration: none;
-  margin: 5px;
+  margin-left: 20px;
   color: #fff;
 }
 
 .nav-list ul li a:hover {
-  text-decoration: none;
-  margin: 5px;
   color: rgba(0, 0, 0, 0.80);
+  border-bottom: 2px solid #01024e;
   transition: .3s all;
 
 }
@@ -112,7 +120,7 @@ body {
   border-radius: 5px;
   margin-top: -70px;
   width: 100%;
-  height: 220px;
+  height: auto;
 }
 
 .bio {
@@ -178,9 +186,9 @@ body {
 
 }
 
-.list-info>.text>p {
-  color: #543864;
-
+.list-info>.text>a {
+  color: #01024e;
+  text-decoration: none;
 }
 
 .list-info>.text {
