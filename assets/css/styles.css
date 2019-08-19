@@ -6,6 +6,7 @@ body {
   font-size: 1.2rem;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   margin: 0;
+  overflow-x: hidden;
 }
 
 .container {
@@ -22,14 +23,59 @@ body {
 
 .header {
   background-color: #ff6464;
-  /* padding: 40px; */
-  /* padding-top: 50px; */
   border-bottom-left-radius: 250px;
   border-bottom-right-radius: 250px;
-  /* margin-top: -70px; */
   margin: 0;
   width: 100%;
   height: 500px;
+  box-shadow: 0px 0px 7px -2px rgba(0, 0, 0, 0.61);
+}
+
+.nav {
+  padding: 0 100px 0 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.brand {
+  color: rgba(0, 0, 0, 0.80);
+  cursor: pointer;
+}
+
+.brand:hover {
+  color: #fff;
+  transition: .3s all;
+}
+
+.nav-list {
+  align-self: center;
+}
+
+.nav-list ul {
+  display: flex;
+  flex-flow: row wrap;
+  list-style: none;
+}
+
+.nav-list ul li {
+  float: left;
+  margin: 5px;
+  font-size: 1.3rem
+}
+
+.nav-list ul li a {
+  text-decoration: none;
+  margin: 5px;
+  color: #fff;
+}
+
+.nav-list ul li a:hover {
+  text-decoration: none;
+  margin: 5px;
+  color: rgba(0, 0, 0, 0.80);
+  transition: .3s all;
+
 }
 
 .about {
