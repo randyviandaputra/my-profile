@@ -1,9 +1,11 @@
 html {
-  background-color: #ff6464;
+  background-color: #fff;
 }
 
 body {
   font-size: 1.2rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: 0;
 }
 
 .container {
@@ -18,11 +20,29 @@ body {
 
 }
 
+.header {
+  background-color: #ff6464;
+  /* padding: 40px; */
+  /* padding-top: 50px; */
+  border-bottom-left-radius: 250px;
+  border-bottom-right-radius: 250px;
+  /* margin-top: -70px; */
+  margin: 0;
+  width: 100%;
+  height: 500px;
+}
+
+.about {
+  z-index: 99;
+  margin-top: -400px;
+}
+
 .avatar {
   display: flex;
   justify-content: center;
   justify-items: center;
   z-index: 100;
+
 }
 
 .avatar img {
@@ -33,22 +53,35 @@ body {
   background-color: #fff;
   padding: 40px;
   padding-top: 50px;
-  border-radius: 10px;
+  border-radius: 5px;
   margin-top: -70px;
   z-index: 10;
-  box-shadow: 0px 0px 7px -2px rgba(0, 0, 0, 0.61)
+  box-shadow: 0px 0px 7px -2px rgba(0, 0, 0, 0.61);
 }
 
 .detail-info {
   background-color: #fff;
   padding: 40px;
   padding-top: 50px;
-  border-radius: 10px;
+  border-radius: 5px;
   margin-top: -70px;
   width: 100%;
   height: 420px;
 }
 
+.bio {
+  margin: 50px 100px 0 100px;
+  color: rgba(0, 0, 0, 0.80);
+  background-color: #fff;
+  box-shadow: 0px 0px 7px -2px rgba(0, 0, 0, 0.61);
+  border-radius: 5px;
+  padding: 10px 40px 10px 40px;
+
+}
+
+.bio h2 {
+  margin: 0px;
+}
 
 .description {
   display: flex;
@@ -69,7 +102,6 @@ body {
 .separator {
   border-bottom: 1px solid #ff6464;
   width: 14rem;
-  /* opacity: .3; */
   margin-top: -15px;
 }
 
