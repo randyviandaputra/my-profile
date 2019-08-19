@@ -1,5 +1,5 @@
 html {
-  background-color: #01024e;
+  background-color: #ff6464;
 }
 
 body {
@@ -22,11 +22,33 @@ body {
   display: flex;
   justify-content: center;
   justify-items: center;
+  z-index: 100;
 }
 
 .avatar img {
   border-radius: 100px;
 }
+
+.wrapper {
+  background-color: #fff;
+  padding: 40px;
+  padding-top: 50px;
+  border-radius: 10px;
+  margin-top: -70px;
+  z-index: 10;
+  box-shadow: 0px 0px 7px -2px rgba(0, 0, 0, 0.61)
+}
+
+.detail-info {
+  background-color: #fff;
+  padding: 40px;
+  padding-top: 50px;
+  border-radius: 10px;
+  margin-top: -70px;
+  width: 100%;
+  height: 420px;
+}
+
 
 .description {
   display: flex;
@@ -39,7 +61,7 @@ body {
 }
 
 .job {
-  color: white;
+  color: #01024e;
   margin-top: -45px;
   opacity: .8;
 }
@@ -60,8 +82,7 @@ body {
 }
 
 .list-info {
-  background-color: #fff;
-  color: #ff6464;
+  background-color: #ff6464;
   max-width: 20rem;
   border-radius: 5px;
   min-width: 20rem;
@@ -76,6 +97,11 @@ body {
   margin-right: 30px;
   font-size: 1.8rem;
   color: #01024e;
+
+}
+
+.list-info>.text>p {
+  color: #543864;
 
 }
 
